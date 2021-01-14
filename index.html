@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<body>
+  <div>
+     <textarea id="pasteArea" placeholder="Klistra in h&auml;r"></textarea><br><br>
+     <button id="predict" disabled>Klassificera</button><br><br>
+  </div>
+  <div id="c_img">
+	<img id="img" src="dogs.jpg"<></img>
+  </div>
+	<div id="c_canvas" style="display: none;">
+		<!-- div around canvas is needed.....-->
+		<div><canvas id="canvas_v"></canvas></div>
+	</div>
+	<div>
+		<span id="results"></span>
+	</div>
+	<script src="./index.js"></script>
+</body>
+</html>
